@@ -1,42 +1,32 @@
 import java.io.*;
 import java.util.*;
 
-// Mixing Milk
+//  The Cow Signal
 class Main {
     public static void main(String[] args) throws IOException {
-        Scanner scanner = new Scanner(new File("mixmilk.in"));
-        PrintWriter pw = new PrintWriter(new FileWriter("mixmilk.out"));
+        Scanner scanner = new Scanner(new File("cowsignal.in"));
+        PrintWriter pw = new PrintWriter(new FileWriter("cowsignal.out"));
 
-        int bucketACapacity = scanner.nextInt();
-        int bucketAMilk = scanner.nextInt();
+        int M = scanner.nextInt();
+        int N = scanner.nextInt();
+        int K = scanner.nextInt();
 
-        int bucketBCapacity = scanner.nextInt();
-        int bucketBMilk = scanner.nextInt();
+        for(int i = 0; i < M; i++){
+            String pic = scanner.next();
+            String extended = "";
 
-        int bucketCCapacity = scanner.nextInt();
-        int bucketCMilk = scanner.nextInt();
+            for (char c: pic.toCharArray()) {
+                for(int j = 0; j < K; j++){
+                    extended += c;
+                }
+            }
 
-        for(int i = 0; i < 33; i++){
-            int min1 = Math.min(bucketAMilk, bucketBCapacity-bucketBMilk);
-            bucketAMilk -= min1;
-            bucketBMilk += min1;
-
-            int min2 = Math.min(bucketBMilk, bucketCCapacity-bucketCMilk);
-            bucketBMilk -= min2;
-            bucketCMilk += min2;
-
-            int min3 = Math.min(bucketCMilk, bucketACapacity-bucketAMilk);
-            bucketCMilk -= min3;
-            bucketAMilk += min3;
+            //code
+            for(int j = 0; j < K; j++){
+                pw.println(extended);
+            }
         }
 
-        int min1 = Math.min(bucketAMilk, bucketBCapacity-bucketBMilk);
-        bucketAMilk -= min1;
-        bucketBMilk += min1;
-
-        pw.println(bucketAMilk);
-        pw.println(bucketBMilk);
-        pw.println(bucketCMilk);
         pw.close();
 
     }
