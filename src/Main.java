@@ -1,58 +1,43 @@
+import java.io.*;
 import java.util.*;
 
-// Milk Measurement
+// Mixing Milk
 class Main {
+    public static void main(String[] args) throws IOException {
+        Scanner scanner = new Scanner(new File("mixmilk.in"));
+        PrintWriter pw = new PrintWriter(new FileWriter("mixmilk.out"));
 
-    public static int amountMilk(String dayNameMilkLINE, int initialMilk) {
-        char[] charInputArr = dayNameMilkLINE.toCharArray();
+        int bucketACapacity = scanner.nextInt();
+        int bucketAMilk = scanner.nextInt();
 
-        int arrLength = charInputArr.length;
+        int bucketBCapacity = scanner.nextInt();
+        int bucketBMilk = scanner.nextInt();
 
-        System.out.println(arrLength);
+        int bucketCCapacity = scanner.nextInt();
+        int bucketCMilk = scanner.nextInt();
 
-        int amountMilkGainedLost = charInputArr[charInputArr.length - 1];
-        char operation = (charInputArr[charInputArr.length - 2]);
+        for(int i = 0; i < 33; i++){
+            int min1 = Math.min(bucketAMilk, bucketBCapacity-bucketBMilk);
+            bucketAMilk -= min1;
+            bucketBMilk += min1;
 
-        if (operation == '+') {
-            initialMilk += amountMilkGainedLost;
-        } else {
-            initialMilk -= amountMilkGainedLost;
+            int min2 = Math.min(bucketBMilk, bucketCCapacity-bucketCMilk);
+            bucketBMilk -= min2;
+            bucketCMilk += min2;
+
+            int min3 = Math.min(bucketCMilk, bucketACapacity-bucketAMilk);
+            bucketCMilk -= min3;
+            bucketAMilk += min3;
         }
 
-        return initialMilk;
-    }
+        int min1 = Math.min(bucketAMilk, bucketBCapacity-bucketBMilk);
+        bucketAMilk -= min1;
+        bucketBMilk += min1;
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        int N = scanner.nextInt();
-        int initialMilk = 7;
-
-        String[] daysNamesMilk = new String[N + 1];
-
-        for (int i = 0; i <= N; i++) {
-            daysNamesMilk[i] = scanner.nextLine();
-        }
-
-        Arrays.sort(daysNamesMilk);
-
-        System.out.println("What does the input array contain");
-        for (int y = 0; y <= N; y++) {
-            System.out.println(daysNamesMilk[y]);
-        }
-
-        int counter = 0;
-
-        for (int w = 1; w <= N-1; w++) {
-            int[] milk = new int[N];
-            milk[w] = amountMilk(daysNamesMilk[w], initialMilk);
-
-            if (milk[w] > initialMilk) {
-                counter++;
-            }
-        }
-
-        System.out.println(counter + 1);
+        pw.println(bucketAMilk);
+        pw.println(bucketBMilk);
+        pw.println(bucketCMilk);
+        pw.close();
 
     }
 }
