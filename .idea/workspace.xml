@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0733ea7b-69e0-43e0-b014-54a97ae6f7b0" name="Changes" comment="Problem: The Cow Signal&#10;Status: done" />
+    <list default="true" id="0733ea7b-69e0-43e0-b014-54a97ae6f7b0" name="Changes" comment="Problem: The Cow Signal&#10;Status: done">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668370362258</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Problem: The Cow Signal&#10;Status: done">
+      <created>1668384466589</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668384466589</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
