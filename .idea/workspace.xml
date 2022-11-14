@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0733ea7b-69e0-43e0-b014-54a97ae6f7b0" name="Changes" comment="Problem: The Cow Signal&#10;Status: done">
+    <list default="true" id="0733ea7b-69e0-43e0-b014-54a97ae6f7b0" name="Changes" comment="Problem: Weird Algorithm - CSES&#10;Status: done (time limit exceeded)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668384466589</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Problem: Weird Algorithm - CSES&#10;Status: done (time limit exceeded)">
+      <created>1668384867725</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668384867725</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,7 +155,8 @@
     <MESSAGE value="Problem: Milk Measurement USACO&#10;Status: Almost done" />
     <MESSAGE value="Problem: Mixing Milk &#10;Status: done" />
     <MESSAGE value="Problem: The Cow Signal&#10;Status: done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem: The Cow Signal&#10;Status: done" />
+    <MESSAGE value="Problem: Weird Algorithm - CSES&#10;Status: done (time limit exceeded)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem: Weird Algorithm - CSES&#10;Status: done (time limit exceeded)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
