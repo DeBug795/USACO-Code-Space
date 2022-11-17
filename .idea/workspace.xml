@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0733ea7b-69e0-43e0-b014-54a97ae6f7b0" name="Changes" comment="Problem: Weird Algorithm - CSES&#10;Status: done (fix: just use variable LONG).">
+    <list default="true" id="0733ea7b-69e0-43e0-b014-54a97ae6f7b0" name="Changes" comment="Problem: Missing Numbers - CSES&#10;Status: done (doesn't pass all test cases).">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668469155053</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Problem: Missing Numbers - CSES&#10;Status: done (doesn't pass all test cases).">
+      <created>1668476184980</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668476184980</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,7 +171,8 @@
     <MESSAGE value="Problem: The Cow Signal&#10;Status: done" />
     <MESSAGE value="Problem: Weird Algorithm - CSES&#10;Status: done (time limit exceeded)" />
     <MESSAGE value="Problem: Weird Algorithm - CSES&#10;Status: done (fix: just use variable LONG)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem: Weird Algorithm - CSES&#10;Status: done (fix: just use variable LONG)." />
+    <MESSAGE value="Problem: Missing Numbers - CSES&#10;Status: done (doesn't pass all test cases)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem: Missing Numbers - CSES&#10;Status: done (doesn't pass all test cases)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
