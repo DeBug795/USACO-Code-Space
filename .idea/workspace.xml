@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0733ea7b-69e0-43e0-b014-54a97ae6f7b0" name="Changes" comment="Problem: Missing Numbers - CSES&#10;Status: done (doesn't pass all test cases).">
+    <list default="true" id="0733ea7b-69e0-43e0-b014-54a97ae6f7b0" name="Changes" comment="Problem: Do You Know Your ABCs? 2020 USACO&#10;Status: Finished. Passed all test cases">
+      <change afterPath="$PROJECT_DIR$/src/Main1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -36,10 +37,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/runbiersabhlok/Developer/IdeaProjects/USACO Code Space"
+    "last_opened_file_path": "/Users/runbiersabhlok/Developer/IdeaProjects/USACO Code Space",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main1">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="USACO Code Space" />
@@ -47,8 +49,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main1" />
+      <module name="USACO Code Space" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -146,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668476184980</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Problem: Marathon 2014 - USACO&#10;Status: not done">
+      <created>1668647825366</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668647825366</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Problem: Do You Know Your ABCs? 2020 USACO&#10;Status: Finished. Passed all test cases">
+      <created>1668647920148</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668647920148</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,7 +196,9 @@
     <MESSAGE value="Problem: Weird Algorithm - CSES&#10;Status: done (time limit exceeded)" />
     <MESSAGE value="Problem: Weird Algorithm - CSES&#10;Status: done (fix: just use variable LONG)." />
     <MESSAGE value="Problem: Missing Numbers - CSES&#10;Status: done (doesn't pass all test cases)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem: Missing Numbers - CSES&#10;Status: done (doesn't pass all test cases)." />
+    <MESSAGE value="Problem: Marathon 2014 - USACO&#10;Status: not done" />
+    <MESSAGE value="Problem: Do You Know Your ABCs? 2020 USACO&#10;Status: Finished. Passed all test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem: Do You Know Your ABCs? 2020 USACO&#10;Status: Finished. Passed all test cases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -183,5 +209,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
