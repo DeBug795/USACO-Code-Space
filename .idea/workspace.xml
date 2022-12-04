@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0733ea7b-69e0-43e0-b014-54a97ae6f7b0" name="Changes" comment="Angry Cows USACO and CSES Missing Number fully solved.">
-      <change afterPath="$PROJECT_DIR$/speeding.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EvenMoreOddPhotos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repetitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SpeedingTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0733ea7b-69e0-43e0-b014-54a97ae6f7b0" name="Changes" comment="Many updates" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +39,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Input + Output/Speeding Ticket" />
+      <recent name="$PROJECT_DIR$/Input + Output" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -215,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669587114594</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Many updates">
+      <created>1670191419401</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670191419401</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,7 +248,8 @@
     <MESSAGE value="Problem: Do You Know Your ABCs? 2020 USACO&#10;Status: Finished. Passed all test cases" />
     <MESSAGE value="Two problem solutions not finished." />
     <MESSAGE value="Angry Cows USACO and CSES Missing Number fully solved." />
-    <option name="LAST_COMMIT_MESSAGE" value="Angry Cows USACO and CSES Missing Number fully solved." />
+    <MESSAGE value="Many updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Many updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
