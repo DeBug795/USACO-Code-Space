@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0733ea7b-69e0-43e0-b014-54a97ae6f7b0" name="Changes" comment="Two problem solutions not finished.">
-      <change afterPath="$PROJECT_DIR$/src/AngryCowsUSACO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MissingNumberCSES.java" afterDir="false" />
+    <list default="true" id="0733ea7b-69e0-43e0-b014-54a97ae6f7b0" name="Changes" comment="Angry Cows USACO and CSES Missing Number fully solved.">
+      <change afterPath="$PROJECT_DIR$/speeding.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EvenMoreOddPhotos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repetitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SpeedingTicket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,12 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MissingNumberCSES">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SpeedingTicket">
     <configuration name="AngryCowsUSACO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AngryCowsUSACO" />
       <module name="USACO Code Space" />
@@ -64,8 +70,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Repetitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Repetitions" />
+      <module name="USACO Code Space" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpeedingTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SpeedingTicket" />
+      <module name="USACO Code Space" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpeedingTicket" />
+        <item itemvalue="Application.Repetitions" />
         <item itemvalue="Application.MissingNumberCSES" />
         <item itemvalue="Application.AngryCowsUSACO" />
         <item itemvalue="Application.Main" />
@@ -186,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669507638091</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Angry Cows USACO and CSES Missing Number fully solved.">
+      <created>1669587114594</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1669587114594</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,7 +244,8 @@
     <MESSAGE value="Problem: Marathon 2014 - USACO&#10;Status: not done" />
     <MESSAGE value="Problem: Do You Know Your ABCs? 2020 USACO&#10;Status: Finished. Passed all test cases" />
     <MESSAGE value="Two problem solutions not finished." />
-    <option name="LAST_COMMIT_MESSAGE" value="Two problem solutions not finished." />
+    <MESSAGE value="Angry Cows USACO and CSES Missing Number fully solved." />
+    <option name="LAST_COMMIT_MESSAGE" value="Angry Cows USACO and CSES Missing Number fully solved." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
